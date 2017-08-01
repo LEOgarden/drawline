@@ -13,11 +13,11 @@ import android.view.View;
 public class ClockView extends View {
     private int mWidth,mHeight;
     public ClockView(Context context) {
-        this(context,null);
+        super(context);
     }
 
     public ClockView(Context context, AttributeSet attrs) {
-        this(context, attrs,-1);
+        super(context, attrs);
     }
 
     public ClockView(Context context, AttributeSet attrs, int defStyleAttr) {
